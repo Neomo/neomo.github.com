@@ -122,6 +122,6 @@ SOFTWARE.
   color: #1d3e81;
 }
 
-#about-me {
-  font-family: 'Segoe UI','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
+#about-me , #contactme{
+  font-family: 'Righteous','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
 }
