@@ -122,3 +122,6 @@ SOFTWARE.
   color: #1d3e81;
 }
 
+#designer-templates+p /* meta.output */ {
+  font-family: 'Segoe UI','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
+}
