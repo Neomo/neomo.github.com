@@ -132,3 +132,7 @@ SOFTWARE.
 				border-radius:50%;
 				border:2px solid #fff;
 			}
+
+#main_content h3{
+font-family: 'Lobster','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
+}
