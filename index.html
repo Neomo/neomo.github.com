@@ -1,103 +1,501 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
-    
-    <meta name="description" content="Toomiy | Zicii.com" />
-    <meta name="keywords" content="Toomiy, Zicii, Zicii.com" />
+<head>
+	<meta name="viewport" content="width=device-width , initial-scale=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Toomiy | Zicii.com" />
+	<meta name="keywords" content="Toomiy, Zicii, Zicii.com" />
+
+		<meta property="og:locale"         content="zh_CN">
+        <meta property="og:type"           content="website">
+        <meta property="og:title"          content="Toomiy">
+        <meta property="og:url"            content="http://zicii.com">
+        <meta property="og:image"          content="http://zicii.com/img/avatar.jpg">
+		
+	<link href="http://fonts.useso.com/css?family=Lobster|Marcellus+SC|Josefin+Sans" rel="stylesheet" type="text/css">	
+	<link href="http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/res/hint.min.css" rel="stylesheet">	
 	
-	<link href="http://fonts.googleapis.com/css?family=Lobster|Marcellus+SC" rel="stylesheet" type="text/css">
+	<link href="http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/res/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    
-    <link rel="shortcut icon" href="http://7lrwe3.com1.z0.glb.clouddn.com/index/favicon.ico">
-    
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="http://ajax.useso.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Coming...Toomiy</title>
-  </head>
 
-  <body>
-  	
-  <img src="http://tu.etang.info/uploads/2016/06/tttt.jpg" width="0" height="0" />	
-    <a id="forkme_banner" href="https://github.com/Neomo">View on GitHub</a>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Toomiy</h1>
-            <h2></h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
-      </div>
-
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3></h3>
-
-<p><center><img id="avatar" src="data:image/jpg;base64,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""></center></p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About Toomiy</h3>
-
-<p id="about-me">
-  苦逼的<code>IT民工</code>一枚<br />
-  目前混迹于兼具"全国最大县城"与"国际化大都市"双重色彩的<code>大武汉</code>！！！<br />
-  外在是安逸的，但又有一个<code>躁动不安</code>的内心......<br />
-  算了，实在是编不出来了，以后再写吧！-_-||<br />
-  20160614
-</p>
-
-
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p id="contactme">Email:<a href="mailto:i@zicii.com">i@zicii.com</a><br />
+	<link rel="shortcut icon" href="http://7lrwe3.com1.z0.glb.clouddn.com/index/favicon.ico">
+	<title>Toomiy's Homepage</title>
 	
-	工作经历:<a href="http://cv.zicii.com">My Resume</a><br /> 
 	
-	小工具:<a href="http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/webtool/index.html">Web Tools</a><br /></p>
+</head>
+
+<style>
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
 
 
 
-      </section>
+::-moz-selection{
+	background:#cfcfcf;
+	color:#fff;
+}
 
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Projects by <a href="https://github.com/Neomo">Neomo</a> can be found on <a href="https://github.com/Neomo">GitHub</a></p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
-      </footer>
+::selection {
+	background:#cfcfcf;
+	color:#fff;
+}
 
-    </div>
 
-    
-  </body>
+
+
+
+
+
+
+
+.logo_holder_outer{
+	margin:80px auto;
+	width: 600px;
+	height: 220px;
+	background-color: #013859;
+	border-radius: 8px; 
+	background:rgba(0,0,0,0.4);
+	//box-shadow: 0 0 2px 2px #D9D1CE;
+}
+
+.logo_holder_inner{
+	text-align: center;
+	padding-top:50px;
+}
+
+
+
+
+.logo_holder_inner p{
+	color:#FFF;
+	font-family: "Lobster",sans-serif;
+	font-size:88px;	
+	text-transform: uppercase;
+	text-shadow: 0px 2px #FFF, 2px 5px #777;
+}
+
+
+.logo_holder_inner > a{
+	color:#FFF;
+	font-family: "Marcellus SC",sans-serif;
+	font-size:24px;
+}
+
+
+	
+	
+.logo_holder_inner h1{
+	display:none;
+	
+}
+
+
+
+.mylink{
+	margin-top:10px;
+	display:inline-block;
+	padding:10px 10px;
+	border-radius: 0px 0px 5px 5px; 
+	background-image: linear-gradient(135deg, #723362, #9d223c);
+	background-color: #9d223c;
+	  }
+
+.mylink a{
+	color:#FFF;
+	font-weight:bold;
+	font-family: 'Segoe UI','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
+	text-decoration:none;
+	border-radius: 3px; 
+
+	display: inline-block;
+    padding: 1px 8px;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease;
+	
+	}
+	
+.mylink a span{
+	color:#FFF;
+	font-family:'Josefin Sans','Courgette','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
+	}
+	
+.mylink a:hover{
+	 background-color: #486AAA;
+	}
+		  
+	  
+	  
+  
+	  
+	  
+	  
+ body{
+				z-index: 0;
+				font-weight: normal;
+				color:#FFF;
+				background-color: #013859;
+				border-top:6px solid #FF7100;
+				background-attachment: fixed;
+				background-clip: border-box;
+				background-origin: padding-box;
+				background-position: center top;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 100%;
+				background-image:url("");}	  
+
+	  
+	  
+.logo_holder_inner p em {
+		font-style:normal;
+		-webkit-animation: cssAnimation 1s 16 ease-in;
+		-moz-animation: cssAnimation 1s 16 ease-in;
+		-o-animation: cssAnimation 1s 16 ease-in;
+		}
+		@-webkit-keyframes cssAnimation {
+		from { -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); }
+		to { -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px); }
+		}
+		@-moz-keyframes cssAnimation {
+		from { -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); }
+		to { -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px); }
+		}
+		@-o-keyframes cssAnimation {
+		from { -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); }
+		to { -webkit-transform: rotate(0deg) scale(1.1) skew(1deg) translate(0px); }
+		}
+
+		
+		
+		
+		
+		
+.link {
+	outline: none;
+	text-decoration: none;
+	position: relative;
+	
+	line-height: 1;
+	
+	display: inline-block;
+}
+
+/* ---Mallki ---*/
+.link--mallki {
+	font-weight: 800;
+	color: #81a689;
+	font-family: 'Dosis', sans-serif;
+	-webkit-transition: color 0.5s 0.25s;
+	transition: color 0.5s 0.25s;
+	overflow: hidden;
+}
+
+.link--mallki:hover {
+	-webkit-transition: none;
+	transition: none;
+	color: transparent;
+}
+
+.link--mallki::before {
+	content: '';
+	width: 100%;
+	height: 6px;
+	margin: -3px 0 0 0;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translate3d(-100%,0,0);
+	transform: translate3d(-100%,0,0);
+	-webkit-transition: -webkit-transform 0.4s;
+	transition: transform 0.4s;
+	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.link--mallki:hover::before {
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+}
+
+.link--mallki span {
+	position: absolute;
+	height: 50%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.link--mallki span::before {
+	content: attr(data-letters);
+	color: red;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.link--mallki span:nth-child(2) {
+	top: 50%;
+}
+
+.link--mallki span:first-child::before {
+	top: 0;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.link--mallki span:nth-child(2)::before {
+	bottom: 0;
+	-webkit-transform: translate3d(0,-100%,0);
+	transform: translate3d(0,-100%,0);
+}
+
+.link--mallki:hover span::before {
+	-webkit-transition-delay: 0.3s;
+	transition-delay: 0.3s;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+	-webkit-transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+	transition-timing-function: cubic-bezier(0.2,1,0.3,1);
+}	  
+/*------------ Mallki End--------------*/	  
+
+
+
+
+
+
+
+.it-wrapper p img{
+	width:80px;
+	height:80px;
+	border-radius:50%;
+	border:2px solid #fff;
+
+
+}
+
+
+
+	.terminal {
+			font-family: 'Lobster','Microsoft Jhenghei','Microsoft Yahei',sans-serif;
+			width: 160px;
+			height:20px;
+			font-size: 14px;
+			color: #FFF;
+			letter-spacing: 2px;
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			display:none;
+				padding:5px 10px;
+				border-radius: 3px;
+				background-color: #000;
+		}
+
+		.terminal::before {
+			content: ">";
+			margin-right: 10px;
+		}
+
+		
+	.footer-font{
+			width:120px;
+			margin:0 auto;
+			font-size:16px
+			text-align:center;
+		}
+	.footer-font span{
+			border-radius:50%;;
+			text-align:center;
+			line-height:24px;
+			width:24px;
+			height:24px;
+			background-color:#C7007D;
+		}
+		.footer-font span:nth-child(1){
+			background-color:#50B512;
+		}
+		.footer-font span:nth-child(2){
+			background-color:#E6152B;
+		}
+		.footer-font span:nth-child(3){
+			background-color:#00ABED;
+		}
+		.footer-font span:nth-child(4){
+			background-color:#F16528;
+		}
+				
+
+
+
+	  
+	  
+@media (max-width:600px){
+	.logo_holder_outer{
+			width: 100%;
+			
+		}	
+ }
+ @media (max-width:480px){
+	.logo_holder_outer{
+			
+			margin: 30px auto;
+			margin-bottom:60px;
+		}	
+ }
+
+</style>
+<body>
+
+
+		
+
+
+	<div class="logo_holder_outer">
+	
+		<div class="logo_holder_inner">			
+			<h1>Toomiy | Zicii.com</h1> 
+			
+			<div class="it-wrapper">
+				<p class="it-text"><a href="http://i.zicii.com/wally.html" title="Just another Page">
+				<img class="avatar" src="data:image/jpeg;base64,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"></a><br /></p>
+			
+			</div>
+
+			
+			<a  id="nextpic" class="link link--mallki" href="#">Coming soon<span data-letters="Coming soon"></span><span data-letters="Coming soon"></span></a>
+			<br />
+			
+			<div class="mylink">
+				<a href="javascript:;" target="_blank" class="hint--left  hint--success" data-hint="o(∩_∩)o"><span>Toomiy</span>、站点</a> /
+				<a href="http://memo.zicii.com/" target="_blank"><span>Blog</span>、笔记</a> /
+				<a href="http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/webtool/" target="_blank" class="hint--right  hint--info" data-hint="CSS3 Generator"><span>Code</span>、生成器</a>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="terminal"></div>
+	
+	
+	<div class="footer-font">
+	
+			<span class="hint--top  hint--success" data-hint="toomiy！"><i class="fa fa-weixin"></i></span>
+			<span class="hint--top  hint--success" data-hint="不告诉你！"><i class="fa  fa-weibo"></i></span>
+			<span class="hint--top  hint--success" data-hint="不玩这个！"><i class="fa  fa-twitter"></i></span>
+			<span class="hint--top  hint--success" data-hint="i@zicii.com"><i class="fa   fa-envelope"></i></span>  	
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	<script src="http://cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
+
+	<script type="text/javascript">
+		 $(document).ready(function(){
+			 var random_bg=Math.floor(Math.random()*47+1);
+			 var bg='url(http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/res/bgpic/bg_'+random_bg+'.jpg)';
+			 $("body").css("background-image",bg);
+			 $('.it-text').toggleClass('it-animate');
+			 
+		$("#nextpic").click(function(){
+			 
+
+			var random_bg=Math.floor(Math.random()*47+1);
+			var bg='url(http://7lrwe3.com1.z0.glb.clouddn.com/lab/project/mcode/res/bgpic/bg_'+random_bg+'.jpg)';
+			$("body").css("background-image",bg);
+			$('.it-text').toggleClass('it-animate');
+			});	 
+		
+		});
+	</script>
+		
+	
+	
+	<script type="text/javascript">
+	
+		
+	
+	(function($){
+		var a = '@-webkit-keyframes b { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } } @-moz-keyframes b { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } } @keyframes b { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } } ';var c;var d;var e = "";var f;var k;var o;$.fn.typewriting = function(g,h,i){this.text("A");var j=this.height();this.text("");d=0;e=g;f=$.extend({typing_interval:150,blink_interval:"0.7s",cursor_color:"black"},h);k=i;var l='.typingCursor::after{content:"";width:10px;height:'+j+'px;margin-left:5px;display:inline-block;vertical-align:bottom;background-color:'+f.cursor_color+';-webkit-animation:b '+f.blink_interval+' infinite;-moz-animation:b '+f.blink_interval+' infinite;animation:b '+f.blink_interval+' infinite;}';$('head').append('<style type="text/css">'+a+l+'</style>');c=this.addClass("typingCursor");mm();};$.fn.rewrite=function(g,i){d=0;e=g;k=i;mm();};function mm(){if(d<=e.length){var n=getText();if(n.slice(-1)=="<")o=true;if(n.slice(-1)==">")o=false;c.html(n);if(o)mm();else setTimeout(function(){mm();},f.typing_interval);}else{if(k)k();}}function getText(){var p=e.slice(0,d);d++;return p;}
+		}(jQuery));
+	
+	
+	
+	
+			$(document).ready( function(){
+				setTimeout( function(){
+					$('.terminal').typewriting( "Made by Toomiy", {
+						"typing_interval": 150,
+						"blink_interval": "0.5s",
+						"cursor_color": "#00fd55"
+					}, function() {
+						console.log( "END" );
+					});
+					setTimeout( function(){
+						$('.terminal').rewrite( "At 2015 11 18", 
+						function(){
+							console.log( "END, 2." );
+						});
+							setTimeout( function(){
+								$('.terminal').rewrite( "In Wuhan......", 
+								function(){
+									console.log( "END, 3." );
+								});
+								setTimeout( function(){
+									$('.terminal').rewrite( "Ok Goodbye...", 
+									function(){
+										console.log( "END, 4." );
+									});
+									
+								
+								
+								
+								}, 2500);	
+							}, 2500);
+					}, 3000);
+				}, 3000);
+			});
+	</script>
+
+	
+	<script type="text/javascript">
+		var fun = function (){$ (".terminal").slideToggle ();};
+		$ (function ()
+		{
+			setTimeout (fun, 2000);
+			setTimeout (fun, 17000);
+		});
+	</script>
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=10765045" charset="UTF-8"></script>
+
+</body>
 </html>
